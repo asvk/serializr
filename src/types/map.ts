@@ -14,9 +14,9 @@ import { PropSchema, AdditionalPropArgs } from "../api/types"
  * This can be both plain objects (default) or ES6 Map like structures.
  * This will be inferred from the initial value of the targetted attribute.
  *
- * @param {*} propSchema
- * @param {AdditionalPropArgs} additionalArgs optional object that contains beforeDeserialize and/or afterDeserialize handlers
- * @returns {PropSchema}
+ * @param propSchema
+ * @param additionalArgs optional object that contains beforeDeserialize and/or afterDeserialize handlers
+ * @returns
  */
 export default function map(
     propSchema: PropSchema,

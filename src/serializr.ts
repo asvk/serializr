@@ -10,38 +10,38 @@
  * @property {boolean} identifier
  *
  * @typedef {object} PropertyDescriptor
- * @param {*} value
- * @param {boolean} writeable
- * @param {Function|undefined} get
- * @param {Function|undefined} set
- * @param {boolean} configurable
- * @param {boolean} enumerable
+ * @param value
+ * @param writeable
+ * @param get
+ * @param set
+ * @param configurable
+ * @param enumerable
  *
  * @callback serializerFunction
- * @param {*} sourcePropertyValue
+ * @param sourcePropertyValue
  * @returns any - serialized object
  *
  *
  * @callback deserializerFunction
- * @param {*} jsonValue
- * @param {cpsCallback} callback
- * @param {Context} context
- * @param {*} currentPropertyValue
+ * @param jsonValue
+ * @param callback
+ * @param context
+ * @param currentPropertyValue
  * @returns void
  *
  * @callback RegisterFunction
- * @param {*} id
- * @param {object} target
- * @param {Context} context
+ * @param id
+ * @param target
+ * @param context
  *
  * @callback cpsCallback
- * @param {*} result
- * @param {*} error
+ * @param result
+ * @param error
  * @returns void
  *
  * @callback RefLookupFunction
- * @param {string} id
- * @param {cpsCallback} callback
+ * @param id
+ * @param callback
  * @returns void
  *
  * @typedef {object} ModelSchema

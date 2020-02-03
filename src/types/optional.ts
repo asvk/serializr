@@ -12,8 +12,8 @@ import { PropSchema } from "../api/types"
  *
  * serialize(new Todo()) // {}
  *
- * @param {PropSchema} propSchema propSchema to (de)serialize the contents of this field
- * @returns {PropSchema}
+ * @param propSchema propSchema to (de)serialize the contents of this field
+ * @returns
  */
 export default function optional(propSchema?: PropSchema | boolean): PropSchema {
     propSchema = !propSchema || propSchema === true ? _defaultPrimitiveProp : propSchema

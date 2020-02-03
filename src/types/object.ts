@@ -29,9 +29,9 @@ import { ClazzOrModelSchema, AdditionalPropArgs, PropSchema } from "../api/types
  *     },
  * })
  *
- * @param {ModelSchema} modelSchema to be used to (de)serialize the object
- * @param {AdditionalPropArgs} additionalArgs optional object that contains beforeDeserialize and/or afterDeserialize handlers
- * @returns {PropSchema}
+ * @param modelSchema to be used to (de)serialize the object
+ * @param additionalArgs optional object that contains beforeDeserialize and/or afterDeserialize handlers
+ * @returns
  */
 export default function object(
     modelSchema: ClazzOrModelSchema<any>,
